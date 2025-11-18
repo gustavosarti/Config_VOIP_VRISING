@@ -39,25 +39,25 @@ Você precisará copiar os seguintes 4 valores:
 
 Agora, vamos dizer ao seu servidor V Rising para usar essas chaves.
 
-1.  **Pare o seu servidor dedicado.** (Este é um passo crucial!)
-2.  Acesse a pasta de saves do seu servidor. O caminho padrão no Windows é:
-    `%USERPROFILE%\AppData\LocalLow\Stunlock Studios\VRisingServer\Saves\`
-3.  Entre na pasta da versão (ex: `v1`, `v2` ou `v3`).
-4.  Entre na pasta do seu save (o `SaveName` definido no seu `ServerHostSettings.json`, por exemplo, `FOFOCA`).
-5.  Dentro da pasta do seu save, crie uma nova pasta chamada `Settings` (se ela ainda não existir).
-6.  O caminho final será parecido com: `...\Saves\v1\FOFOCA\Settings`
-7.  Crie um novo arquivo de texto dentro da pasta `Settings` e renomeie-o para `ServerVoipSettings.json`.
-8.  Abra este arquivo e cole o conteúdo do `ServerVoipSettings.json.example` (ou copie o código abaixo) e **preencha** com as 4 chaves que você obteve na Parte 1.
+1. Encontre a pasta save-data/Settings
+2. Cole ou crie o arquivo `ServerVoipSettings.json`.
+3. Adicione o codigo abaixo com as informações obtidas no vivox.
+4. Reinicie o servidor e estará funcionando.
+5. Para mais informações: https://mhuijskens.com/vrising/Vivox_V-Rising_How_To.pdf
+  
+   
 
 **Template do `ServerVoipSettings.json`:**
 ```json
 {
-  "VOIPEnabled": true,
-  "VOIPIssuer": "COLE_SEU_EMISSOR_DO_TOKEN_AQUI",
-  "VOIPSecret": "COLE_SUA_CHAVE_DO_TOKEN_AQUI",
-  "VOIPVivoxDomain": "COLE_SEU_DOMINIO_AQUI",
-  "VOIPAPIEndpoint": "COLE_SEU_SERVIDOR_(API_ENDPOINT)_AQUI",
-  "VOIPConversationalDistance": 25,
-  "VOIPAudibleDistance": 40,
-  "VOIPFadeIntensity": 1.5
+ "VOIPEnabled": true,
+ "VOIPIssuer": "",
+ "VOIPSecret": "",
+ "VOIPVivoxDomain": "mtu1xp.vivox.com",
+ "VOIPAPIEndpoint": "",
+ "VOIPAppUserId": "notneeded-notused",
+ "VOIPAppUserPwd": "notneeded-notused",
+ "VOIPConversationalDistance": 14,
+ "VOIPAudibleDistance": 40,
+ "VOIPFadeIntensity": 2.0
 }
