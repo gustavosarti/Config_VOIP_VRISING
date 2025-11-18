@@ -1,10 +1,12 @@
 {
-  "VOIPEnabled": true,
-  "VOIPIssuer": "COLE_SEU_EMISSOR_DO_TOKEN_AQUI",
-  "VOIPSecret": "COLE_SUA_CHAVE_DO_TOKEN_AQUI",
-  "VOIPVivoxDomain": "COLE_SEU_DOMINIO_AQUI",
-  "VOIPAPIEndpoint": "COLE_SEU_SERVIDOR_(API_ENDPOINT)_AQUI",
-  "VOIPConversationalDistance": 25,
-  "VOIPAudibleDistance": 40,
-  "VOIPFadeIntensity": 1.5
+ "VOIPEnabled": true,
+ "VOIPIssuer": "",
+ "VOIPSecret": "",
+ "VOIPVivoxDomain": "",
+ "VOIPAPIEndpoint": "",
+ "VOIPAppUserId": "notneeded-notused",
+ "VOIPAppUserPwd": "notneeded-notused",
+ "VOIPConversationalDistance": 14,
+ "VOIPAudibleDistance": 40,
+ "VOIPFadeIntensity": 2.0
 }
