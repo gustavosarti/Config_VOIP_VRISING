@@ -1,9 +1,9 @@
 {
   "VOIPEnabled": true,
-  "VOIPIssuer": "46738-servi-43562-udash",
-  "VOIPSecret": "X7COUd5907K6eGbqobTX48754W4kQ3IN",
-  "VOIPVivoxDomain": "mtu1xp.vivox.com",
-  "VOIPAPIEndpoint": "https://unity.vivox.com/appconfig/46738-servi-43562-udash",
+  "VOIPIssuer": "COLE_SEU_EMISSOR_DO_TOKEN_AQUI",
+  "VOIPSecret": "COLE_SUA_CHAVE_DO_TOKEN_AQUI",
+  "VOIPVivoxDomain": "COLE_SEU_DOMINIO_AQUI",
+  "VOIPAPIEndpoint": "COLE_SEU_SERVIDOR_(API_ENDPOINT)_AQUI",
   "VOIPConversationalDistance": 25,
   "VOIPAudibleDistance": 40,
   "VOIPFadeIntensity": 1.5
