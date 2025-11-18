@@ -1,0 +1,10 @@
+{
+  "VOIPEnabled": true,
+  "VOIPIssuer": "46738-servi-43562-udash",
+  "VOIPSecret": "X7COUd5907K6eGbqobTX48754W4kQ3IN",
+  "VOIPVivoxDomain": "mtu1xp.vivox.com",
+  "VOIPAPIEndpoint": "https://unity.vivox.com/appconfig/46738-servi-43562-udash",
+  "VOIPConversationalDistance": 25,
+  "VOIPAudibleDistance": 40,
+  "VOIPFadeIntensity": 1.5
+}
